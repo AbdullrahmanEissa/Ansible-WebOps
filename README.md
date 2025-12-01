@@ -166,9 +166,17 @@ ansible-playbook -i inventory apache.yml # For Apache
 
 ## 📈 Screenshots
 
-![Screenshot 1](https://via.placeholder.com/600x300?text=Home+Page)
-![Screenshot 2](https://via.placeholder.com/600x300?text=Projects+Section)
-![Screenshot 3](https://via.placeholder.com/600x300?text=Resume+Section)
+<img width="1920" height="784" alt="Screenshot from 2025-12-01 05-10-55" src="https://github.com/user-attachments/assets/998ac97d-a7d8-466b-833a-49eed50221cc" />
+
+<img width="1920" height="784" alt="Screenshot from 2025-12-01 05-11-15" src="https://github.com/user-attachments/assets/711b96a6-c14d-4505-87af-527de90bffab" />
+
+<img width="1920" height="784" alt="Screenshot from 2025-12-01 05-11-30" src="https://github.com/user-attachments/assets/40a0ef89-dded-44b0-b28b-9a0aff6e87cd" />
+
+<img width="1920" height="784" alt="Screenshot from 2025-12-01 05-11-49" src="https://github.com/user-attachments/assets/6b7a21c4-622c-46d6-98e1-9028c562b215" />
+
+
+
+
 
 ---
 
