@@ -172,7 +172,7 @@ ansible-playbook -i inventory apache.yml # For Apache
 
 <img width="1920" height="784" alt="Screenshot from 2025-12-01 05-11-30" src="https://github.com/user-attachments/assets/40a0ef89-dded-44b0-b28b-9a0aff6e87cd" />
 
-<img width="1920" height="784" alt="Screenshot from 2025-12-01 05-11-49" src="https://github.com/user-attachments/assets/6b7a21c4-622c-46d6-98e1-9028c562b215" />
+<img width="1920" height="784" alt="Screenshot from 2025-12-01 05-11-49" src="https://github.com/user-attachments/assets/2769eee9-ebf8-41d1-b243-0e33e23d08ef" />
 
 
 
