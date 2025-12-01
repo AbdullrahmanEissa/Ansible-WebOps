@@ -1,6 +1,3 @@
-Here’s a polished, professional, and visually structured GitHub README in Markdown for your project. I’ve made it colorful and detailed, highlighting AWS, Ansible, Nginx, Apache, and load balancing—you can copy-paste it into your repo.
-
-```markdown
 # 🌐 Bio Website Deployment with Ansible on AWS
 
 ![Banner](https://img.shields.io/badge/Ansible-Automation-blue?style=for-the-badge&logo=ansible)
