@@ -1,0 +1,45 @@
+---
+- hosts: all
+  name: Bio-Website-Installation
+  become: true
+  tasks:
+
+  - name: Update
+    apt:
+      update_cache: yes
+  
+  - name: install nginx
+    apt:
+      name: nginx
+      state: latest
+
+  - name: Git Install
+    apt: 
+      name: git
+      state: latest
+
+  - name: Ensure Nginx Start
+    ansible.builtin.systemd:
+      name: nginx
+      state: started
+      enabled: yes
+
+  - name: clone github repo into nginx html folder
+    git:
+      repo: "https://github.com/AbdullrahmanEissa/My-Bio-Website.git"
+      dest: /usr/share/nginx/html/My-Bio-Website
+      version: main
+      force: yes
+
+  - name: copy index.html to nginx root
+    copy:
+      src: /usr/share/nginx/html/My-Bio-Website/index.html
+      dest: /usr/share/nginx/html/index.html
+      remote_src: yes
+
+
+  - name: Restart Nginx
+    ansible.builtin.systemd: 
+      name: nginx
+      state: restarted
+
