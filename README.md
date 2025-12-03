@@ -1,6 +1,4 @@
 ---
-
-```markdown
 # 🌐 Fully Automated Bio Website Deployment (Terraform + Ansible)
 
 ![Ansible](https://img.shields.io/badge/Ansible-Automation-blue?style=for-the-badge&logo=ansible)
